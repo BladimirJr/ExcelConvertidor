@@ -91,7 +91,7 @@ const ConvertidorImagenes = () => {
 function App() {
   return (
     <div>
-      <h1>Convertidor de Imágenes</h1>
+      <h1>Convertidor de Imágenes V.1.0.0</h1>
       <ConvertidorImagenes />
     </div>
   );
