@@ -45,7 +45,7 @@ const ConvertidorImagenes = () => {
           const rutaSalida = `${directorioSalida}${nombreArchivo}.jpg`;
           await saveImage(imagenRedimensionada, rutaSalida);
 
-          console.log(`Se ha convertido ${archivo} a JPEG y redimensionado a 300x300 píxeles.`);
+          console.log(`Se ha convertido ${archivo} a JPEG y redimensionado.`);
         }
       }
     } catch (error) {
