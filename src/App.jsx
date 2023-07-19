@@ -4,9 +4,9 @@ import { saveAs } from 'file-saver';
 
 const ConvertidorImagenes = () => {
   const convertImages = async () => {
-    const directorioImagenes = 'C:\\Users\\SyD Colombia SA\\Desktop\\png';
-    const directorioSalida = 'C:\\Users\\SyD Colombia SA\\Desktop\\jpg';
-    const rutaArchivoExcel = 'C:\\Users\\SyD Colombia SA\\Desktop\\InventarioNuevo1.xlsx';
+    const directorioImagenes = '\\192.168.0.67\Logistica\Fotos';
+    const directorioSalida = 'C:\Users\SyD Colombia SA\Desktop\n';
+    const rutaArchivoExcel = 'C:\Users\SyD Colombia SA\Desktop\InventarioNuevo1.xlsx';
     const rangoCeldasIDs = 'A2:A6';
 
     try {
